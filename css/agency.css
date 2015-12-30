@@ -884,6 +884,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h3 {
     margin-top: -5px;
+    margin-bottom: 10px;
     font-size: 25px;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: none;
@@ -892,8 +893,8 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     font-size: 20px;
-    margin-top: -15px;
-    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     bottom: 0px;
 }
 
