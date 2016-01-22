@@ -14,7 +14,8 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    /*color: #fed136;*/
+    color: #268EB4;
 }
 
 p {
@@ -35,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #268EB4;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #008aaf;
 }
 
 h1,
@@ -62,6 +63,7 @@ h6 {
 
 .bg-light-gray {
     background-color: #f7f7f7;
+    /*background-color: #000000;*/
 }
 
 .bg-darkest-gray {
@@ -70,12 +72,12 @@ h6 {
 
 .btn-primary {
     border-radius: 0px;
-    border-color: #fed136;
+    border-color: #268EB4;
     text-transform: uppercase;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #268EB4;
 }
 
 .btn-primary:hover,
@@ -83,9 +85,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #008aaf;
     color: #fff;
-    background-color: #fec503;
+    background-color: #008aaf;
 }
 
 .btn-primary:active,
@@ -109,12 +111,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #268EB4;
+    background-color: #268EB4;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #268EB4;
     background-color: #fff;
 }
 
@@ -164,7 +166,7 @@ b:link    {color:green; background-color:transparent; text-decoration:none}
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     /*border-color: #f6bf01;*/
-    color: #fec503;
+    color: #008aaf;
     /*background-color: #fec503;*/
 }
 
@@ -189,12 +191,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #268EB4;
+    background-color: #268EB4;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #268EB4;
     background-color: #fff;
 }
 
@@ -206,14 +208,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: 700;
-    color: #fed136;
+    color: #268EB4;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #008aaf;
 }
 
 .navbar-default .navbar-collapse {
@@ -221,8 +223,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #268EB4;
+    background-color: #268EB4;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -231,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #268EB4;
 }
 
 .navbar-default .nav li a {
@@ -245,19 +247,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #268EB4;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #268EB4;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #008aaf;
 }
 
 @media(min-width:768px) {
@@ -419,7 +421,8 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    /*background: rgba(254,209,54,.9);*/
+    background: rgba(0,138,175,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -546,7 +549,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #268EB4;
 }
 
 .timeline>li .timeline-image h4 {
@@ -733,7 +736,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #268EB4;
     box-shadow: none;
 }
 
@@ -811,7 +814,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #268EB4;
 }
 
 .btn:focus,
@@ -982,5 +985,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #268EB4;
 }
