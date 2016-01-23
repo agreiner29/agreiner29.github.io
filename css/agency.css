@@ -37,6 +37,18 @@ a.active {
 
 a {
     color: #268EB4;
+    opacity: .9;
+}
+
+a.page-scroll{
+    color: #fff;
+}
+
+.down-btn {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 a:hover,
@@ -165,7 +177,9 @@ b:link    {color:green; background-color:transparent; text-decoration:none}
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     /*border-color: #f6bf01;*/
-    color: #008aaf;
+    /*color: #008aaf;*/
+    color: #fff;
+    opacity: .8;
     /*background-color: #fec503;*/
 }
 
@@ -190,12 +204,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #268EB4;
-    background-color: #268EB4;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .btn-xl .badge {
-    color: #268EB4;
+    color: #fff;
     background-color: #fff;
 }
 
@@ -296,7 +310,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header1.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -305,9 +319,14 @@ header {
     -o-background-size: cover;
 }
 
+.header {
+    height: 100vh;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    height: 100vh;
 }
 
 /*header .intro-text .intro-lead-in {
@@ -325,6 +344,7 @@ header .intro-text .intro-heading {
     font-size: 25px;
     font-weight: 700;
     line-height: 50px;
+    opacity: .9;
 }
 
 @media(min-width:768px) {
@@ -348,6 +368,22 @@ header .intro-text .intro-heading {
         font-size: 50px;
         font-weight: 700;
         line-height: 75px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    header .intro-text .intro-heading {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:768px){
+    header .intro-text {
+        padding-top: 50vh;
+        padding-bottom: 200px;
+    }
+    header .intro-text .intro-heading {
+        font-size: 15px;
     }
 }
 
