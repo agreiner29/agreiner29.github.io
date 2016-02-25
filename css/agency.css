@@ -310,7 +310,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(../img/header_low.jpg);
+    background-image: url(../img/header_progressive.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -485,8 +485,6 @@ section h3.section-subheading {
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-/*    height: 200px;
-    width: 280px;*/
 }
 
 #portfolio .col-md-4 {
@@ -494,8 +492,6 @@ section h3.section-subheading {
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    h/*eight: 270px;
-    width: 380px;*/
 }
 
 #portfolio .portfolio-item {
