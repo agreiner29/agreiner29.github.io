@@ -4,11 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body:after {
-    position:absolute; z-index:-1;
-    content: url(...img/about/about_1.jpg) url(img/header_low.jpg);
-}
-
 body {
     overflow-x: hidden;
     font-family: "Molengo","Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -334,7 +329,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(../img/header_bg.jpg);
+    background-image: url(../img/header_progressive.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
