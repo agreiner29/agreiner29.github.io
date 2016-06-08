@@ -460,7 +460,7 @@ section h3.section-subheading {
 .contact {
     /*font-size: 25px;*/
     position: relative;
-    top: 50px;
+    top: 0px;
     padding-bottom: 15px;
     vertical-align: middle;
     color: #fff;
@@ -485,7 +485,7 @@ section h3.section-subheading {
 }
 
 .about-background {
-    background-image: url(../img/about/about_1.jpg);
+    background-image: url(../img/about/about.jpg);
     background-size: cover;
     height: 100%;
 }
