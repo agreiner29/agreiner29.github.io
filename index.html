@@ -51,23 +51,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">AARON GREINER</a>
+                <a class="navbar-brand page-scroll light" href="#page-top">AARON GREINER</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="light" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll light" href="#about">About</a>
                     </li>
 <!--                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li> -->
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll light" href="#portfolio">Portfolio</a>
                     </li>
                     <!-- <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -82,7 +82,7 @@
     <!-- Header -->
     <header><img src="img/header_progressive.jpg" style="display:none">
         <div class="container header">
-            <div class="intro-text">
+            <div class="intro-text light">
                 <div class="intro-heading"> ENGINEER | DESIGNER | ARTIST </div>
                 <!-- <a href="#about" class="page-scroll btn btn-xl fa fa-angle-down fa-5x"></a> -->
                 <div class="down-btn">
@@ -106,7 +106,8 @@
 	            </div> -->
                 <div class="col-lg-7 col-md-8 col-sm-8 about">
                     <p class="text-muted">I am an artist, designer, and engineer from Gloucester, Massachusetts. I am currently a junior at Olin College of Engineering studying Design Engineering. I love my family, my dogs, the environment, and the powerful intersection between art, design, and engineering.</p>
-                    <p><a href="img/aaron_greiner_resume.pdf" target="blank" class="btn btn-primary">download my resume</a></p>
+                    <p>
+                    <a href="img/aaron_greiner_resume.pdf" target="blank" class="btn btn-primary light">download my resume</a></p>
                     <div class="contact">
                         <a href="mailto:aaron.greiner@icloud.com" class="btn-social btn-outline"><i class="fa fa-envelope"></i>aaron.greiner@icloud.com</a>
                         </br>
@@ -123,17 +124,109 @@
 
     <!-- Preview Image > 5x7 -->
 
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
+<!-- <section id="portfolio-1" class="bg-light-gray">
+    <div class="flex-container">
+        <div class="flex-item">
+            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <img src="img/portfolio/library-preview.jpg" class="img-flex" alt="">                  
+            </a>
+        </div>
+        <div class="flex-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <img src="img/portfolio/kinnect-preview.jpg" class="img-flex" alt=""> 
+            </a>
+        </div>
+        <div class="flex-item">
+            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <img src="img/portfolio/shadows-preview.jpg" class="img-flex" alt="">                  
+            </a>
+        </div>
+    </div>
+</section> -->
+
+    <section id="portfolio" class="bg-light-gray portfolio">
+
+    <!-- PORTFOLIO TEST -->
+
+        <div class="portfolio-container">
+            <a href="#portfolioModal1" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/library-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>OWL</p>
+                </div>
+            </a>
+            <a href="#portfolioModal2" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/kinnect-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Kinnect</p>
+                </div>
+            </a>
+            <a href="#portfolioModal3" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/shadows-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Shadows</p>
+                </div>
+            </a>
+            <a href="#portfolioModal4" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/acronym-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>The ACRONYM</p>
+                </div>
+            </a>
+            <a href="#portfolioModal5" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/uocd-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>UOCD</p>
+                </div>
+            </a>
+            <a href="#portfolioModal6" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/athack-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>ATHack</p>
+                </div>
+            </a>
+            <a href="#portfolioModal7" data-toggle="modal" class="portfolio-unit-4 portfolio-unit" style="background-image: url(img/portfolio/sculpture-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Sculpture</p>
+                </div>
+            </a>
+            <a href="#portfolioModal8" data-toggle="modal" class="portfolio-unit-4 portfolio-unit"  style="background-image: url(img/portfolio/design-nature-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Design Nature</p>
+                </div>
+            </a>
+            <a href="#portfolioModal9" data-toggle="modal" class="portfolio-unit-4 portfolio-unit" style="background-image: url(img/portfolio/nativeink-preview.png)">
+                <div class="portfolio-overlay">
+                    <p>NativeInk</p>
+                </div>
+            </a>
+            <a href="#portfolioModal10" data-toggle="modal" class="portfolio-unit-4 portfolio-unit" style="background-image: url(img/portfolio/deliverme-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>deliverme</p>
+                </div>
+            </a>
+            <a href="#portfolioModal11" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/digital-photography-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Digital Photography</p>
+                </div>
+            </a>
+            <a href="#portfolioModal12" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/film-photography-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Film Photography</p>
+                </div>
+            </a>
+            <a href="#portfolioModal13" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/subway-face-preview.jpg)">
+                <div class="portfolio-overlay">
+                    <p>Graphic Design</p>
+                </div>
+            </a>
+        </div>
+
+
+       <!--  <div class="container"> -->
+<!--             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
                     </br>
-                    </br>
+                    </br> -->
                     <!-- <h3 class="section-subheading text-muted">ALL DESIGN PROJECTS ART</h3> -->
-                </div>
-            </div>
-            <div class="row">
+<!--                 </div>
+            </div> -->
+            <!-- <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -143,28 +236,23 @@
                         </div>
                         <img src="img/portfolio/library-preview.jpg" class="img-responsive" alt="">                  
                     </a>
-                    <!-- <div class="portfolio-caption">
-                        <h4>Kinnect</h4> -->
-                        <!-- <p class="text-muted">Project</p> -->
-                    <!-- </div> -->
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <p>Kinnect</p>
-                                <!-- <i class="fa fa-plus fa-3x"></i> -->
                             </div>
-                        </div>
+                        </div> -->
                     <!-- <div class="cssco cssco--x1"> -->
-                        <img src="img/portfolio/kinnect-preview.jpg" class="img-responsive" alt="">
+                        <!-- <img src="img/portfolio/kinnect-preview.jpg" class="img-responsive" alt=""> -->
                     <!-- </div> -->  
-                    </a>
+                    <!-- </a> -->
                     <!-- <div class="portfolio-caption">
                         <h4>OWL</h4> -->
                         <!-- <p class="text-muted">Project</p> -->
                     <!-- </div> -->
-                </div>
+                <!-- </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -222,7 +310,7 @@
                                 <p>Design Nature</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/design nature-preview.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/design-nature-preview.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 portfolio-item">
@@ -276,7 +364,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     
     <!-- Contact Section -->
@@ -582,7 +670,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">UOCD (in progress)</h1>
+                    <h1 class="page-header">UOCD (User Oriented Collaborative Design)</h1>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -592,7 +680,7 @@
                         <img class="img-responsive" src="img/portfolio/uocd.jpg" alt="">
                     </div>
                     <div class="col-md-4">
-                        <p>User Orientated Collaborative Design is a human-centered design class that I am currently enrolled in. I am working to design a solution for a problem that local farmers face. The course goes through extensive user research and interviewing, ideating and co-designing, and ends with a design proposal.</p>
+                        <p>User Oriented Collaborative Design is a human-centered design class centered around solving a problem for a specific user group. The course goes through extensive user research and interviewing, ideating and co-designing, and ends with a design proposal.</p>
                     </div>
                 </div>
             </div>
