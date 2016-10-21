@@ -578,7 +578,7 @@ hr {
 }
 
 .portfolio-overlay:hover {
-    opacity: .8;
+    opacity: 1;
 }
 
 .portfolio-overlay p {
@@ -586,7 +586,7 @@ hr {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 1);
 }
 
 @media(min-width: 1200px) {
