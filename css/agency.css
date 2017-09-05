@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Molengo","Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 } 
 
 .text-muted {
@@ -257,7 +257,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #268EB4;
+    color: #fff;
+    opacity: .8;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -389,7 +390,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Molengo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -711,7 +712,7 @@ hr {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Molengo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
 
@@ -802,7 +803,7 @@ hr {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Molengo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
 /*    font-style: italic;*/
 }
