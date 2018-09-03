@@ -24,7 +24,7 @@
     <link href="linea-arrows-10/icon-font/styles.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -59,56 +59,25 @@
                         <a class="light" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll light" href="#about">About</a>
+                        <a class="page-scroll light" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll light" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll light" href="#about">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Header -->
-    <header><img src="img/header_progressive.jpg" style="display:none">
-        <div class="container header">
-            <div class="intro-text light">
-                <div class="intro-heading"> DESIGNER | ENGINEER | ARTIST </div>
-                <div class="down-btn">
-                    <a href="#about" class="page-scroll btn btn-xl icon-arrows-down"></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-     <!-- About Section -->
-    <section id="about" class="about-background"><img src="img/about/about.jpg" style="display:none">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-8 col-sm-8 about">
-                    <p class="text-muted">I am an artist, designer, and engineer from Gloucester, Massachusetts. I graduated from Olin College of Engineering where I studied Design Engineering. I've spend the last few years exploring cities, urban design, and livability. I love my family, my dogs, the environment, and the powerful intersection between art, design, and engineering.</p>
-                    <p>
-                    <a href="img/aaron_greiner_resume.pdf" target="blank" class="btn btn-primary light">download my resume</a></p>
-                    <div class="contact">
-                        <a href="mailto:aaron.greiner@icloud.com" class="btn-social btn-outline"><i class="fa fa-envelope"></i>aaron.greiner@icloud.com</a>
-                        </br>
-                        <a href="http://linkedin.com/in/aaronbgreiner" target="_blank" class="btn-social btn-outline"><i class="fa fa-linkedin"></i>linkedin.com/in/aaronbgreiner</a>
-                        </br>
-                        <a class="btn-social btn-outline no-link"><i class="fa fa-phone"></i>(978) 968-7828</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="portfolio">
-        <button class="filter" data-filter="all">All</button>
-        <button class="filter" data-filter=".design">Design</button>
-        <button class="filter" data-filter=".engineering">Engineering</button>
-        <button class="filter" data-filter=".art">Art</button>
-
         <div id="Container" class="container">
+            <div>
+                <button class="filter" data-filter="all">All</button>
+                <button class="filter" data-filter=".design">Design</button>
+                <button class="filter" data-filter=".engineering">Engineering</button>
+                <button class="filter" data-filter=".art">Art</button>
+            </div>
             <div class="mix design">
                 <a href="#culturehouse" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/culturehouse/culturehouse-preview.jpg)">
                     <div class="portfolio-overlay">
@@ -210,7 +179,7 @@
             <div class="mix art">
                 <a href="#deliverme" data-toggle="modal" class="portfolio-unit" style="background-image: url(img/portfolio/deliverme/deliverme-preview.jpg)">
                     <div class="portfolio-overlay">
-                        <p>deliverme</p>
+                        <p>deliver me</p>
                     </div>
                 </a>
             </div>
@@ -231,8 +200,28 @@
         </div>
     </section>
 
+  <!-- About Section -->
+    <section id="about" class="about-background"><img src="img/about/about.jpg" style="display:none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-8 col-sm-8 about">
+                    <p class="text-muted">I am designer from Gloucester, Massachusetts. I graduated from Olin College of Engineering where I studied Design Engineering. I love my family, my dogs, the environment, and the powerful intersection between art, design, and engineering. I've spent the last few years exploring cities, urban design, and livability.</p>
+                    <p>
+                    <a href="img/aaron_greiner_resume.pdf" target="blank" class="btn btn-primary">download my resume</a></p>
+                    <div class="contact">
+                        <a href="mailto:aaron.greiner@icloud.com" class="btn-social btn-outline"><!-- <i class="fa fa-envelope"> --></i>aaron.greiner@icloud.com</a>
+                        </br>
+                        <a href="http://linkedin.com/in/aaronbgreiner" target="_blank" class="btn-social btn-outline"><!-- <i class="fa fa-linkedin"> --></i>linkedin.com/in/aaronbgreiner</a>
+                        </br>
+                        <a class="btn-social btn-outline no-link"><!-- <i class="fa fa-phone"> --></i>(978) 968-7828</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="footer" class="footer">
-        <p>AARON GREINER | 2017</p>
+        <p>AARON GREINER | 2018</p>
     </section>
 
 <!-- Portfolio Modals -->
@@ -241,34 +230,46 @@
     <div class="portfolio-modal modal fade" id="culturehouse" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-culturehouse" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">CultureHouse (in progress)</h1>
+                    <h1 class="page-header">CultureHouse</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
             <div class="row">
                 <div class="portfolio-row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/portfolio/culturehouse/splash.jpg" alt="">
+                        <img class="img-responsive" src="img/portfolio/culturehouse/opening.jpg" alt="">
                     </div>
                     <div class="col-md-12">
-                        <p>CultureHouse, a  project I am currently developing, is a place to hang out, meet people, create, share skills, and learn. As a vibrant cultural institution in the Boston area, it will serve as an indoor public space and communal living room for all in the city. CultureHouse will work to promote urban design in Boston by acting as a test kitchen for public space and streetscape improvements. Partnering with affordable, local businesses, the space will host a cafe during the day, and a bar at night, and have regular programming determined by the community such as board game and trivia nights, flea markets, soup nights, and live music. There will be space to work, to meet, and to talk.</p>
-                        <p>We are planning to run a pilot of CultureHouse this coming summer in a vacant space in the Boston area. This will allow us to test our idea full-scale and work to develop the space with the community.</p>
+                        <p>CultureHouse, a project I started to increase livability in Boston, is a place to hang out, meet people, create, share skills, and learn. Starting in the summer of 2017, the CultureHouse team developed a pop-up community and cultural space in the Boston area. After a year of planning, we opened up our first pop-up, during our July 2018, in Union Square. During this time, CultureHouse served as indoor public park and communal living room to the neighborhood, and hosted many free events.</p>
+                        <p>After developing our mission, we worked with partners further tweak the idea and find funding for the one month pop-up. After finding a location (and loosing it last minute, then finding another one), we set out to build the space. We used open source deigns to make the space easy to reproduce. By building a lot of the materials ourselves, we were able to create a warm and inviting space for a low cost. Two of the most popular items in the space were the swings and trampolines that we put up. We found that everyone, no matter the age, couldn't resist the urge to play on them!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="img/portfolio/culturehouse/living room.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="img/portfolio/culturehouse/ping pong.jpg" alt="">
+                    </div>
+                    <div class="col-md-12">
+                        <p>Over the course of the month, we had everything from live musical performances, to GIANT cornhole, to art workshops. We also screened all the world cup games and at the final, had over 50 people attend of all difference ages and backgrounds. Our ping pong tables were also a big hit. We held weekly tournaments and had people playing at all hours of the day.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <img class="img-responsive" src="img/portfolio/culturehouse/world cup.jpg" alt="">
+                    </div>
+                    <div class="col-md-12">
+                        <p>The July pop-up in Union Square exceeded our expectations and filled a community need for a non-commercial place to work, play, and socialize. People of all ages connected strongly to and enjoyed the CultureHouse experience. Though many people requested CultureHouse stay open, this iteration was designed as a one month experiment to test the concept. The CultureHouse team learned a lot over the course of the pop-up, and we are working on the next steps for CultureHouse with plans to open up again in the future.</p>
                     </div>
                     <div class="col-md-12">    
-                        <p>This project is in progress. Learn more about it at our <a href="http://culturehouse.org" target="_blank">website</a>.</p>
+                        <p>Learn more about CultureHouse at our <a href="http://culturehouse.org" target="_blank">website</a>.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-culturehouse" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -277,15 +278,12 @@
     <div class="portfolio-modal modal fade" id="block" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-block" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Better Block</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -317,10 +315,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-block" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-block" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -352,10 +350,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-barberton" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-barberton" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -375,9 +373,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-block" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-block"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -386,15 +384,12 @@
     <div class="portfolio-modal modal fade" id="urban" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-urban" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Urban Design</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -430,11 +425,12 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-pilot" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-pilot" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
+
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -456,9 +452,9 @@
                         <p>For my second project, I introduced a soundscape installation in Vesterbros Torv, a square in Vesterbro. To start, I mapped the sounds that were existing in the square and observed how people used the space. I then took those findings and used them to create a soundscape experience that enhanced the existing sounds and added new ones. In my project, I placed a series of 10 microphones and bench assemblies around the square. In addition to providing seating, these units amplify the sound around them to make people aware of their local soundscape. When the mic picks up sound, the speaker also plays a similar sound from another square in another part of the world. This serves to connect the residents to Copenhagen to other places in the world and was partially inspired by the refugee crisis in Europe.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-urban" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-urban"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -467,15 +463,12 @@
     <div class="portfolio-modal modal fade" id="shifting" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-shifting" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Shifting Rhythms</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -500,9 +493,9 @@
                         <p>To test the program, we are running 12 week pilot starting in February. We have hired two co-directors from the community that will bring the trailer to different after school programs where youth will be exposed to technology, entrepreneurship, and the arts.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-shifting" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-shifting"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -511,15 +504,12 @@
     <div class="portfolio-modal modal fade" id="return" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-return" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Return Design</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -551,9 +541,9 @@
                         <p>When we arrived at the White House the morning of SXSL, we got right to work finalizing the booth and prepping for the press and attendees. When the SXSL guests arrived, we found ourselves busily engaged in good conversation. Some attendees strolled by, while others were quick to be active in discussion with us. We were excited by how many people we somehow connected to the lab, through personal connections or otherwise.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-return" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-return"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -562,15 +552,12 @@
     <div class="portfolio-modal modal fade" id="twende" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-twende" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Twende</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -598,9 +585,9 @@
                         <img class="img-responsive" src="img/portfolio/twende/graphic design.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-twende" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-twende"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -609,15 +596,12 @@
     <div class="portfolio-modal modal fade" id="owl" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-owl" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Olin Workshop on the Library</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -654,9 +638,9 @@
                         <p><i>Watch <a href="https://vimeo.com/139410557" target="_blank">Olin Workshop on the Library, Summer Design/Build 2015</a>.</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-owl" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-owl"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -665,15 +649,12 @@
     <div class="portfolio-modal modal fade" id="uocd" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-uocd" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">FoodSource</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -707,9 +688,9 @@
                         <p><i>Our "Pointy Signs" prototype.</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-uocd" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-uocd"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -718,15 +699,12 @@
     <div class="portfolio-modal modal fade" id="shadows" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-shadows" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Shadows</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -796,9 +774,9 @@
                         <p><i>light, coax cable, velum</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-shadows" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-shadows"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -807,15 +785,12 @@
     <div class="portfolio-modal modal fade" id="acronym" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-acronym" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">the ACRONYM</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -840,9 +815,9 @@
                         <img class="img-responsive" src="img/portfolio/acronym/acronym.gif" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-acronym" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-acronym"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -851,15 +826,12 @@
     <div class="portfolio-modal modal fade" id="kinnect" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-kinnect" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Kinnect</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -877,9 +849,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-kinnect" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-kinnect"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -888,15 +860,12 @@
     <div class="portfolio-modal modal fade" id="athack" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-athack" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">ATHack</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -918,9 +887,9 @@
                         <img class="img-responsive" src="img/portfolio/athack/athack.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-athack" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-athack"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -929,15 +898,12 @@
     <div class="portfolio-modal modal fade" id="sculpture" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-sculpture" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Sculpture</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -958,10 +924,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-chicken" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-chicken" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -987,10 +953,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-landscape" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-landscape" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1018,10 +984,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-pencil-alphabet" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-pencil-alphabet" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1055,10 +1021,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-crane" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-crane" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1103,9 +1069,9 @@
                         <p><i>stainless steel</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-sculpture" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-sculpture"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1114,15 +1080,12 @@
     <div class="portfolio-modal modal fade" id="desnat" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-desnat" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Design Nature</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1151,10 +1114,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-goat" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-goat" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1187,10 +1150,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-banana" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-banana" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1199,9 +1162,9 @@
                         <p>For my Design Nature class, we had to create a hopping toy using only a limited number of given materials. Naturally, I made a hopping banana! A latex tube makes the peels want to come together, but in order to delay the launch, there is a trigger mechanism below the stem that lets the banana hop a couple seconds after it is set.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-desnat" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-desnat"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1210,15 +1173,12 @@
     <div class="portfolio-modal modal fade" id="nativeink" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-nativeink" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">NativeInk</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1235,26 +1195,23 @@
                         <img class="img-responsive" src="img/portfolio/nativeink/nativeink presentation.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-nativeink" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-nativeink"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal deliverme -->
+    <!-- Portfolio Modal deliver me -->
     <div class="portfolio-modal modal fade" id="deliverme" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-deliverme" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">deliverme</h1>
+                    <h1 class="page-header">deliver me</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1270,9 +1227,9 @@
                         <img class="img-responsive" src="img/portfolio/deliverme/deliverme letter.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-deliverme" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-deliverme"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1281,15 +1238,12 @@
     <div class="portfolio-modal modal fade" id="digital" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-digital" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Digital Photography</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1546,9 +1500,9 @@
                         <p><i>taken from a plane above NYC, NY</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-digital" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-digital"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1557,15 +1511,12 @@
     <div class="portfolio-modal modal fade" id="film" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-film" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Film Photography</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1606,9 +1557,9 @@
                         <p><i>taken in Gloucester, MA</i></p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-film" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-film"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1617,15 +1568,12 @@
     <div class="portfolio-modal modal fade" id="graphic" tabindex="-1" role="dialog" aria-hidden="true">
         <a id="top-graphic" class="portfolio-anchor"></a>
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Graphic Design</h1>
+                </div>
+                <div class="close-modal" data-dismiss="modal">
+                    <a href="#top-culturehouse"><img class="icon" src="icons/close.svg" alt="close portfolio item"></img></a>
                 </div>
             </div>
             <!-- Portfolio Item Row -->
@@ -1674,10 +1622,10 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-phoenix" data-slide="prev">
-                                <span class="icon-arrows-left"></span>
+                                <img class="icon icon-arrows-left" src="icons/arrow-left.svg" alt="left"></img>
                             </a>
                             <a class="right carousel-control" href="#carousel-phoenix" data-slide="next">
-                                <span class="icon-arrows-right"></span>
+                                <img class="icon icon-arrows-right" src="icons/arrow-right.svg" alt="right"></img>
                             </a>
                         </div>
                     </div>
@@ -1704,9 +1652,9 @@
                         <p>This label was made for the jars of honey that my high school produces from its beehive. It was chosen in a school-wide competition.</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center-up">
-                <a href="#top-graphic" class="icon-arrows-up"></a>
+                <div class="col-md-12">
+                    <a href="#top-graphic"><img class="icon" src="icons/arrow-up.svg" alt="page up"></img></a>
+                </div>
             </div>
         </div>
     </div>

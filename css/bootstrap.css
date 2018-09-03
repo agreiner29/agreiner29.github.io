@@ -1424,8 +1424,6 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: -80px 0 20px;
-  border-bottom: 1px solid #ddd;
   padding-right: 100px;
 }
 ul,
@@ -4461,14 +4459,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -6258,13 +6254,15 @@ button.close {
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left,
 .icon-arrows-left {
-  left: 50%;
+  left: -20px;
+  top: 40%;
   margin-left: -10px;
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right,
 .icon-arrows-right {
-  right: 50%;
+  right: -20px;
+  top: 40%;
   margin-right: -10px;
 }
 .carousel-control .icon-prev,
