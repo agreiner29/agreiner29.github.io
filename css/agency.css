@@ -383,14 +383,14 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 25px;
-    font-size: 50px;
+    font-size: 2em;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 2em;
     font-weight: 400;
 }
 
@@ -628,6 +628,13 @@ hr {
     padding-bottom: 5px;
 }
 
+.no-padding {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
 }
@@ -773,13 +780,13 @@ hr {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .portfolio-modal .modal-content h3 {
     margin-top: -5px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 24px;
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: none;
     font-weight: 400;
